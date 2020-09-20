@@ -37,6 +37,8 @@
 // Power outputs EFBF or EFBE
 #define MOSFET_D_PIN 7
 
+#define FAN_PIN         4
+
 //
 // CS Pins wired to avoid conflict with the LCD
 // See https://www.thingiverse.com/asset:66604

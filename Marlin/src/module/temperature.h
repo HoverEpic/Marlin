@@ -174,7 +174,7 @@ enum ADCSensorState : char {
   #define unscalePID_d(d) ( float(d) * PID_dT )
 #endif
 
-#if ENABLED(G26_MESH_VALIDATION) && EITHER(HAS_LCD_MENU, EXTENSIBLE_UI)
+#if ENABLED(G26_MESH_VALIDATION) && BOTH(HAS_LCD_MENU, EXTENSIBLE_UI)
   #define G26_CLICK_CAN_CANCEL 1
 #endif
 
